@@ -3,7 +3,7 @@ var col2 = document.getElementById('color2');
 var body = document.getElementById('body');
 var css = document.getElementById('css');
 
-function getColor(){
+conts getColor = () => {
 
 body.style.background = "linear-gradient(to right, "+col1.value+", "+col2.value+")";
 css.textContent = body.style.background+";";
